@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/portfolioYankovAv/static/css/main.606e1b74.css",
+    "main.js": "/portfolioYankovAv/static/js/main.5496d2f0.js",
+    "static/js/787.b4051e8c.chunk.js": "/portfolioYankovAv/static/js/787.b4051e8c.chunk.js",
+    "static/media/instagram-brands.svg": "/portfolioYankovAv/static/media/instagram-brands.9b8d42a07ca250ef882e1466adac20aa.svg",
+    "static/media/twitter-brands.svg": "/portfolioYankovAv/static/media/twitter-brands.7e1d72c332c919e7644dd87caccc2422.svg",
+    "static/media/vk-brands.svg": "/portfolioYankovAv/static/media/vk-brands.cb944412476ddfa9f034a648cb85b230.svg",
+    "index.html": "/portfolioYankovAv/index.html",
+    "static/media/facebook-f-brands.svg": "/portfolioYankovAv/static/media/facebook-f-brands.36b0322755ac10780ef0972d3b9d5c05.svg",
+    "main.606e1b74.css.map": "/portfolioYankovAv/static/css/main.606e1b74.css.map",
+    "main.5496d2f0.js.map": "/portfolioYankovAv/static/js/main.5496d2f0.js.map",
+    "787.b4051e8c.chunk.js.map": "/portfolioYankovAv/static/js/787.b4051e8c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.606e1b74.css",
+    "static/js/main.5496d2f0.js"
+  ]
+}
