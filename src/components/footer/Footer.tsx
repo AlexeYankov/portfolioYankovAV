@@ -1,36 +1,31 @@
 import React from 'react';
-import style from "../cssModules/footer.module.css";
+import style from "../../cssModules/footer.module.css";
+import pic1 from '../../cssModules/pictures/facebook-f-brands.svg'
+import pic2 from '../../cssModules/pictures/twitter-brands.svg'
+import pic3 from '../../cssModules/pictures/instagram-brands.svg'
+import pic4 from '../../cssModules/pictures/vk-brands.svg'
 
 const Footer = () => {
     return (
-        <div>
-            <div className={style.FooterStyleContainer}>
+        <section>
+            <article className={style.FooterStyleContainer}>
                 <div className={style.Footer}>
-                    <div className={style.FooterPart1}>
-                        <label
-                            style={{backgroundColor: 'red', opacity: '0.8'}}
-                            htmlFor='foo7'>
-                            <button
-                                id='foo7'
-                                onClick={() => (alert('Contacts with me'))}
-                                style={{display: 'none'}}
-                            />
-                            Alexey Yankov
-                        </label>
-                    </div>
-                    <div className={style.FooterPart2}>
-                        <div className={style.FooterPart5}>1</div>
-                        <div className={style.FooterPart5}>2</div>
-                        <div className={style.FooterPart5}>3</div>
-                        <div className={style.FooterPart5}>4</div>
+                    <h2 className={style.FooterPart1}>
+                        Alexey Yankov
+                    </h2>
+                    <ul className={style.FooterPart2}>
+                        <img src={pic1} alt="FacebookImg" className={style.FooterPart5}/>
+                        <img src={pic2} alt="TwitterImg" className={style.FooterPart5}/>
+                        <img src={pic3} alt="InstagramImg" className={style.FooterPart5}/>
+                        <img src={pic4} alt="VKImg" className={style.FooterPart5}/>
 
-                    </div>
-                    <div className={style.FooterPart3}>
-                        Copyright © 2020 All rights reserved. Do not duplicate or redistribute in any form.
-                    </div>
+                    </ul>
+                    <span className={style.FooterPart3}>
+                        Copyright © 2022 All rights reserved. Do not duplicate or redistribute in any form.
+                    </span>
                 </div>
-            </div>
-        </div>
+            </article>
+        </section>
     );
 };
 

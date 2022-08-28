@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../cssModules/header.module.css'
+import styles from '../../cssModules/header.module.css'
 
 const Header = () => {
     const barList: Array<string> = ['Main', 'Skills', 'Projects', 'Contacts']
@@ -9,10 +9,10 @@ const Header = () => {
         )
     })
     return (
-        <div className={styles.headerModuleStyle}>
+        <section className={styles.headerModuleStyle}>
             <span className={styles.headerStyle}>Header</span>
-            <div className={styles.headerStyleBarWrapper}>{jsxBarList}</div>
-        </div>
+            <nav className={styles.headerStyleBarWrapper}>{jsxBarList}</nav>
+        </section>
     );
 };
 
