@@ -1,4 +1,17 @@
 .App {
   text-align: center;
+   /* Internet Explorer 10+ */
+   
 }
-*{box-sizing: border-box;}
+
+*::-webkit-scrollbar{
+  display: none;
+}
+
+/* *{
+  border: 1px solid red;
+} */
+
+*{box-sizing: border-box;
+  /* overflow-x: hidden;  */
+}

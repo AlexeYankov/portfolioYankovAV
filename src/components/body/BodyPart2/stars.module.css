@@ -1,0 +1,21 @@
+.container {
+  /* border: 1px solid red; */
+  display: flex;
+  width: 100%;
+  margin-top: -15%;
+  justify-content: center;
+}
+
+.container__emptyStars {
+  width: 50%;
+  flex-direction: row;
+  display: flex;
+  z-index: 0;
+}
+.container__solidStars {
+  margin-left: -50%;
+  width: 50%;
+  flex-direction: row;
+  display: flex;
+  z-index: 10;
+}

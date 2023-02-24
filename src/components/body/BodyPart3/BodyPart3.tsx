@@ -1,46 +1,25 @@
-import React from 'react';
-import style from "../../../cssModules/bodyMain.module.css";
+import { BodyType2 } from "../BodyPart2/BodyPart2";
+import style from "../BodyPart3/BodyPart3.module.css";
+import projectsList from "./Projects";
+import { projectComponent } from "./ProjectComponent";
 
-const BodyPart3 = () => {
-    return (
-        <article className={style.bodySub3MainStyleContainer}>
-            <div className={style.bodySub3}>
-                <h2 className={style.bodySub3part1}>
-                    Projects
-                </h2>
-                <div className={style.bodySub3part3}>
-                    <div className={style.bodySub3part2}>
-                        <div className={style.bodySub3part8}>
-                            <a href={'#'} className={style.bodySub3part4} >
-                               <span className={style.bodySub3part9}>WATCH</span>
-                            </a>
-                            <div className={style.bodySub3SubContainer}>
-                                <span className={style.bodySub3part5}>
-                                    Name of the project
-                                </span>
-                                <span className={style.bodySub3part6}>
-                                    Description
-                                </span>
-                            </div>
-                        </div>
-                        <div className={style.bodySub3part8}>
-                            <a href={'#'} className={style.bodySub3part4} >
-                                <span className={style.bodySub3part9}>WATCH</span>
-                            </a>
-                            <div className={style.bodySub3SubContainer}>
-                                <span className={style.bodySub3part5}>
-                                    Name of the project
-                                </span>
-                                <span className={style.bodySub3part6}>
-                                    Description
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </article>
-    );
+const BodyPart3 = ({ scrollStatus }: BodyType2) => {
+  const offSetSkillsStyle =
+    scrollStatus > 980
+      ? `${style.bodySub3part1} ${style._active}`
+      : `${style.bodySub3part1}`;
+  const projectsData = projectsList.map((el) => {
+    return projectComponent(el, scrollStatus, el.reversed);
+  });
+
+  return (
+    <div id="Projects" className={style.bodySub3MainStyleContainer}>
+      <div className={style.bodySub3}>
+        <h2 className={offSetSkillsStyle}>Projects</h2>
+        <div className={style.bodySub3part2}>{projectsData}</div>
+      </div>
+    </div>
+  );
 };
 
 export default BodyPart3;

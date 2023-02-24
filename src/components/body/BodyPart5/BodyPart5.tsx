@@ -1,9 +1,10 @@
 import React from 'react';
-import style from "../../../cssModules/bodyMain.module.css";
+import { BodyType2 } from '../BodyPart2/BodyPart2';
+import style from "../BodyPart5/BodyPart5.module.css";
 
-const BodyPart5 = () => {
+const BodyPart5 = ({scrollStatus}: BodyType2) => {
     return (
-        <article className={style.bodySub5MainStyleContainer}>
+        <article  className={style.bodySub5MainStyleContainer}>
             <div className={style.bodySub5}>
                 <h2 className={style.bodySub5part1}>
                     CONTACTS
@@ -16,7 +17,7 @@ const BodyPart5 = () => {
                                     id="GET-email"
                                     placeholder={'Email'}
                                     type="text"
-                                    name="Email"
+                                    name="email"
                                     className={style.bodySub5part9}
                                 />
                             </div>
@@ -25,7 +26,7 @@ const BodyPart5 = () => {
                                     id="GET-name"
                                     placeholder={'Name'}
                                     type="text"
-                                    name="Name"
+                                    name="name"
                                     className={style.bodySub5part9}
                                 />
                             </div>

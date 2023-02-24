@@ -1,46 +1,26 @@
-import style from "../../../cssModules/bodyMain.module.css";
-import React from "react";
+import style from "../BodyPart2/BodyPart2.module.css";
+import { mappedSkills } from "./mappedSkillsLeft";
+import { skillsLeft, skillsRight } from "../BodyPart2/skillsDescription";
 
-type SkillsTypes = {
-    id: number
-    title: string
-    picture: string
-    description: string
-}
+export type BodyType2 = {
+  scrollStatus: number;
+};
 
-const BodyPart2 = () => {
-    const skills: Array<SkillsTypes> = [
-        {id: 89, title: 'REACT', picture: 'somePic1', description: 'some text1'},
-        {id: 88, title: 'JAVASCRIPT', picture: 'somePic2', description: 'some text2'},
-        {id: 56, title: 'REDUX', picture: 'somePic3', description: 'some text3'},
-        // {id: 4, title: 'HTML', picture: '', description: 'some text'},
-        // {id: 5, title: 'CSS', picture: '', description: 'some text'},
-        // {id: 5, title: 'CSS', picture: '', description: 'some text'},
-    ]
-    const mappedSkills = skills.map((el) => {
-        return (
-            <ul key={el.id} className={style.bodySub2part4Container}>
-                <li className={style.bodySub2part4Picture}>{el.picture}</li>
-                <li className={style.bodySub2part4Title}>{el.title}</li>
-                <li className={style.bodySub2part4Description}>{el.description}</li>
-            </ul>
-        )
-    })
-    return (
-            <article className={style.bodySub2MainStyleContainer}>
-                <div className={style.bodySub2}>
-                    <h2 className={style.bodySub2part1}>
-                        SKILLS
-                    </h2>
-                    <div className={style.bodySub2part3}>
-                        <div className={style.bodySub2part2}>
-                            {mappedSkills}
-                        </div>
-                    </div>
-                </div>
-            </article>
-    );
+const BodyPart2 = ({ scrollStatus }: BodyType2) => {
+  const offSetSkillsStyle = scrollStatus > 80 ? `${style.bodySub2part1} ${style._active}` : style.bodySub2part1;
+  return (
+    <div id="Skills" className={style.bodySub2MainStyleContainer}>
+      <div className={style.bodySub2}>
+        <h2 className={offSetSkillsStyle}>SKILLS</h2>
+        <div className={style.bodySub2part3}>
+          {mappedSkills(scrollStatus, skillsLeft)}
+        </div>
+        <div className={style.bodySub2part3_1}>
+          {mappedSkills(scrollStatus, skillsRight)}
+        </div>
+      </div>
+    </div>
+  );
 };
 
 export default BodyPart2;
-
