@@ -16,7 +16,7 @@ const BodyMain = ({scrollStatus}: BodyMainType) => {
             <BodyPart2 scrollStatus={scrollStatus}/>
             <BodyPart3 scrollStatus={scrollStatus}/>
             <BodyPart4 scrollStatus={scrollStatus}/>
-            {/* <BodyPart5 scrollStatus={scrollStatus}/> */}
+            <BodyPart5 scrollStatus={scrollStatus}/>
         </section>
     );
 };

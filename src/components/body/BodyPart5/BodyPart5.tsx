@@ -1,49 +1,33 @@
-import React from 'react';
-import { BodyType2 } from '../BodyPart2/BodyPart2';
 import style from "../BodyPart5/BodyPart5.module.css";
+import { BodyType2 } from "../BodyPart2/BodyPart2";
 
-const BodyPart5 = ({scrollStatus}: BodyType2) => {
-    return (
-        <article  className={style.bodySub5MainStyleContainer}>
-            <div className={style.bodySub5}>
-                <h2 className={style.bodySub5part1}>
-                    CONTACTS
-                </h2>
-                <div className={style.bodySub5part2}>
-                    <form className={style.bodySub5part11} action="src/components/body/BodyMain">
-                        <div className={style.bodySub5part10}>
-                            <div className={style.bodySub5part6}>
-                                <input
-                                    id="GET-email"
-                                    placeholder={'Email'}
-                                    type="text"
-                                    name="email"
-                                    className={style.bodySub5part9}
-                                />
-                            </div>
-                            <div className={style.bodySub5part6}>
-                                <input
-                                    id="GET-name"
-                                    placeholder={'Name'}
-                                    type="text"
-                                    name="name"
-                                    className={style.bodySub5part9}
-                                />
-                            </div>
-                        </div>
-                        <div className={style.bodySub5part8}>
-                                <textarea
-                                    placeholder={'...'}
-                                    name="userInputArea"
-                                    className={style.bodySub5part5}
-                                />
-                        </div>
-                    </form>
-                </div>
-                <span className={style.bodySub5part15}>SEND</span>
-            </div>
-        </article>
-    );
+const BodyPart5 = ({ scrollStatus }: BodyType2) => {
+  return (
+    <div className={style.bodySub4MainStyleContainer}>
+      <div className={style.bodySub4}>
+        <span className={style.bodySub4part1}>
+          <span>
+            可用於遠程工作 AVAILABLE FOR REMOTE WORK ГОТОВ К УДАЛЕННОЙ РАБОТЕ
+            リモートワーク 可能可用於遠程工作 AVAILABLE FOR REMOTE WORK ГОТОВ К
+            УДАЛЕННОЙ РАБОТЕ リモートワーク可能 可用於遠程工作 AVAILABLE FOR
+            REMOTE WORK ГОТОВ К УДАЛЕННОЙ РАБОТЕ リモートワーク可能2
+          </span>
+          
+        </span>
+        <span className={style.bodySub4part2}>
+            可用於遠程工作 AVAILABLE FOR REMOTE WORK ГОТОВ К УДАЛЕННОЙ РАБОТЕ
+            リモートワーク 可能可用於遠程工作 AVAILABLE FOR REMOTE WORK ГОТОВ К
+            УДАЛЕННОЙ РАБОТЕ リモートワーク可能 可用於遠程工作 AVAILABLE FOR
+            REMOTE WORK ГОТОВ К УДАЛЕННОЙ РАБОТЕ リモートワーク可能
+          </span>
+        {/* <div className={style.bodySub4part2}>
+                    <span className={style.bodySub4part3}>
+                        HIRE ME
+                    </span>
+                </div> */}
+      </div>
+    </div>
+  );
 };
 
 export default BodyPart5;

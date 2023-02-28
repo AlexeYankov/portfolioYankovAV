@@ -36,6 +36,21 @@ function App() {
         } else {
           el.addEventListener("click", function (e) {
             e.preventDefault();
+            smoothScroll(60, positionY + 0);
+          });
+        }
+      }
+      if (el.innerHTML === "About") {
+        const selectedTag: HTMLElement = selectedSection(el.innerHTML)!;
+        const positionY = selectedTag.getBoundingClientRect().top;
+        if (positionY / 2 == 2796) {
+          el.addEventListener("click", function (e) {
+            e.preventDefault();
+            smoothScroll(40, positionY + 80);
+          });
+        } else {
+          el.addEventListener("click", function (e) {
+            e.preventDefault();
             smoothScroll(60, positionY + 20);
           });
         }
@@ -47,7 +62,7 @@ function App() {
         if (positionY / 2 == 435) {
           el.addEventListener("click", function (e) {
             e.preventDefault();
-            smoothScroll(60, positionY + 8);
+            smoothScroll(60, positionY);
           });
         } else {
           el.addEventListener("click", function (e) {
@@ -56,6 +71,7 @@ function App() {
             smoothScroll(60, positionY + 60);
           });
         }
+        
       }
         // const tagPosition1 = el.getBoundingClientRect();
         // console.log(tagPosition1)

@@ -294,6 +294,9 @@
 }
 
 @media screen and (max-width: 1180px) {
+  .bodySub2part1 {
+    top: 101%
+  }
   .animationSkillsJS{
     width: 16%;
   }

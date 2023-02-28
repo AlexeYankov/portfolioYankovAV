@@ -1,3 +1,4 @@
+
 div {
   --fontSize: 1.8rem;
   --fontBlockName: 2rem;
@@ -133,7 +134,7 @@ a {
 }
 
 .bodySub3part6._projectSpecificToDo {
-  background-image: url("../../../imges/ProjectsPhotos/socialNetwork/profile.png");
+  background-image: url("../../../imges/ProjectsPhotos/todo.png");
   /* margin-top: -1%; */
   box-shadow: 22px 22px 18px rgb(255, 255, 255, 0.3);
   max-height: 580px;

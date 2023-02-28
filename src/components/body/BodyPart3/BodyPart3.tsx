@@ -15,7 +15,7 @@ const BodyPart3 = ({ scrollStatus }: BodyType2) => {
   return (
     <div id="Projects" className={style.bodySub3MainStyleContainer}>
       <div className={style.bodySub3}>
-        <h2 className={offSetSkillsStyle}>Projects</h2>
+        <h2 className={offSetSkillsStyle}>PROJECTS</h2>
         <div className={style.bodySub3part2}>{projectsData}</div>
       </div>
     </div>
