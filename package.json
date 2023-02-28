@@ -2,7 +2,7 @@
   "name": "portfolioYankovAv",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://alexeyankov.github.io/portfolioYankovAv",
+  "homepage": "https://AlexeYankov.github.io/portfolioYankovAv",
   "dependencies": {
     "@chakra-ui/react": "^2.5.1",
     "@emotion/react": "^11.10.6",
@@ -15,7 +15,7 @@
     "@types/react": "^18.0.17",
     "@types/react-dom": "^18.0.6",
     "framer-motion": "^9.0.7",
-    "gh-pages": "^4.0.0",
+    "gh-pages": "^5.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
