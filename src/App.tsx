@@ -36,7 +36,7 @@ function App() {
         } else {
           el.addEventListener("click", function (e) {
             e.preventDefault();
-            smoothScroll(60, positionY + 0);
+            smoothScroll(50, positionY + 70);
           });
         }
       }
@@ -51,7 +51,7 @@ function App() {
         } else {
           el.addEventListener("click", function (e) {
             e.preventDefault();
-            smoothScroll(60, positionY + 20);
+            smoothScroll(40, positionY + 80);
           });
         }
       }
@@ -62,13 +62,13 @@ function App() {
         if (positionY / 2 == 435) {
           el.addEventListener("click", function (e) {
             e.preventDefault();
-            smoothScroll(60, positionY);
+            smoothScroll(40, positionY+40);
           });
         } else {
           el.addEventListener("click", function (e) {
             e.preventDefault();
             console.log(5)
-            smoothScroll(60, positionY + 60);
+            smoothScroll(40, positionY+40);
           });
         }
         

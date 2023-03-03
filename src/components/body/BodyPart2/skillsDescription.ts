@@ -9,7 +9,7 @@ import react from "../../../imges/skills/React-icon.svg.png";
 import redux from "../../../imges/skills/redux.png";
 import webpack from "../../../imges/skills/webpack.png";
 import sass from "../../../imges/skills/sass.png";
-import restapi from "../../../imges/skills/storybook.png";
+import restapi from "../../../imges/skills/REST.webp";
 import mui from "../../../imges/skills/material-ui.png";
 
 export type SkillsTypes = {
@@ -187,7 +187,7 @@ export const skillsRight: Array<SkillsTypes> = [
     animationStyleActive: style._activeJS,
     scrollStatus: scrollStatusGULPWEBPACK,
     skillStars: 4,
-    starsContainerStyle: style.skillsContainer1,
+    starsContainerStyle: style.skillsContainer,
   },
   {
     id: 2,
@@ -203,7 +203,7 @@ export const skillsRight: Array<SkillsTypes> = [
     scrollStatus: scrollStatusGULPWEBPACK,
     skillStars: 3,
     half: true,
-    starsContainerStyle: style.skillsContainer1,
+    starsContainerStyle: style.skillsContainer,
   },
   {
     id: 34,
@@ -219,7 +219,7 @@ export const skillsRight: Array<SkillsTypes> = [
     animationStyleActive: style._activeREACT,
     scrollStatus: scrollStatusGULPWEBPACK,
     skillStars: 3,
-    starsContainerStyle: style.skillsContainer1,
+    starsContainerStyle: style.skillsContainer,
   },
   {
     id: 3,
@@ -235,7 +235,7 @@ export const skillsRight: Array<SkillsTypes> = [
     animationStyleActive: style._activeREDUX,
     scrollStatus: scrollStatusGULPWEBPACK,
     skillStars: 3,
-    starsContainerStyle: style.skillsContainer2,
+    starsContainerStyle: style.skillsContainer,
   },
 ];
 

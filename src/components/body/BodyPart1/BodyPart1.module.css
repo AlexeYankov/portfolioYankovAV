@@ -19,6 +19,11 @@
   width: 100%;
   z-index: 50;
 }
+.mainPhotoContainer {
+  /* display: flex;
+  border: 3px solid red; */
+  /* width: 20vw; */
+}
 /* 
   .bodySub1 {
     flex-wrap: wrap;
@@ -68,6 +73,7 @@
   } */
 
 .fontSizeForMainPicture {
+  flex-wrap: wrap;
   white-space: nowrap;
   overflow: hidden;
   color: #fff;
@@ -90,6 +96,7 @@
   animation-timing-function: linear;
   /* animation: reverse; */
   margin-left: 17%;
+  
 }
 .fontSizeText5 {
   animation-name: textRotating5;
@@ -116,7 +123,7 @@
   animation-timing-function: linear;
   animation-fill-mode: forwards;
   animation-delay: 0s;
-  margin-left: 17%;
+  margin-left: -105vw;
   /* animation: reverse; */
 }
 .fontSizeText4 {
@@ -154,7 +161,7 @@
 }
 @keyframes textRotating3 {
   0% {
-    transform: translateX(0%);
+    transform: translateX(-0%);
   }
   100% {
     transform: translateX(-100%);
@@ -172,7 +179,7 @@
 .mainPhotoContent1 {
   left: 34%;
   top: 51.75%;
-  position: absolute;
+  /* position: absolute; */
   height: 48.5%;
   z-index: 11;
   display: flex;
@@ -184,7 +191,7 @@
 .mainPhotoContent2 {
   left: 34%;
   top: 51.75%;
-  position: absolute;
+  /* position: absolute; */
   height: 48%;
   z-index: 14;
   display: flex;
@@ -711,121 +718,129 @@
   }
 }
 
+@media screen and (max-width: 2100px) {
+  .fontSizeForMainPicture img {
+    margin-left: -5%;
+  }
+}
+
 @media screen and (max-width: 1440px) {
   .mainPhotoContentSmallSizes {
     background-image: url("../../../imges/MainPhoto/11.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    width: 50%;
-    height: 120%;
-    margin-top: -7%;
-    transform: scale(0.75);
+    width: 45vw;
+    height: 95vh;
+    margin-top: 3%;
+    transform: scale(auto);
   }
   .fontSizeForMainPicture img {
     display: none;
   }
   .fontSizeText1{
     animation: none;
+    margin-left: -2330vw;
   }
   .fontSizeText2{
     animation: none;
   }
   .fontSizeText3{
     animation: none;
+    margin-left: -200vw;
   }
   .fontSizeText4{
     animation: none;
+    margin-left: -200vw;
   }
   .fontSizeText5{
     animation: none;
+    margin-left: -120vw;
   }
   
 }
-@media screen and (max-width: 1180px) {
+@media screen and (max-width: 1320px) {
   .mainPhotoContentSmallSizes {
-    width: 63%;
-    height: 120%;
-    margin-top: -8%;
+    width: 50vw;
+    /* height: 90vh; */
+    margin-top: 5vh;
+    /* transform: scale(0.7); */
   }
 }
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 1090px) {
   .mainPhotoContentSmallSizes {
-    width: 40%;
-    height: 100%;
-    margin-top: 0%;
-    transform: scale(0.75);
+    width: 60vw;
+    height: 90vh;
+    /* margin-top: -3vh; */
+    transform: scale(auto);
   }
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 960px) {
   .mainPhotoContentSmallSizes {
-    width: 80%;
-    /* height: 100%; */
-    transform: scale(0.65);
+    width: 60vw;
+    height: 80vh;
+    /* margin-top: 3vh; */
   }
 }
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 830px) {
   .mainPhotoContentSmallSizes {
-    width: 100%;
-    /* height: 100%; */
-    transform: scale(0.55);
+    width: 70vw;
+    /* height: 80vh; */
+    /* margin-top: 3vh; */
   }
 }
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 770px) {
   .mainPhotoContentSmallSizes {
-    width: 140%;
-    height: 150%;
-    margin-top: -30%;
-    transform: scale(0.55);
+    /* width: 75vw; */
+    height: 90vh;
   }
 }
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 740px) {
   .mainPhotoContentSmallSizes {
-    width: 350%;
-    height: 300%;
-    margin-top: -150%;
-    transform: scale(0.24);
+    margin-top: 8vh;
+    width: 88vw;
+  }
+}@media screen and (max-width: 690px) {
+  .mainPhotoContentSmallSizes {
+    width: 85vw;
+  }
+}
+@media screen and (max-width: 620px) {
+  .mainPhotoContentSmallSizes {
+    margin-top: 10vh;
+    width: 90vw;
+    height: 75vh;
   }
 }
 @media screen and (max-width: 480px) {
   .mainPhotoContentSmallSizes {
-    width: 350%;
-    height: 300%;
-    margin-top: -175%;
-    transform: scale(0.24);
+    width: 100vw;
+    height: 70vh;
   }
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 450px) {
   .mainPhotoContentSmallSizes {
-    width: 400%;
-    height: 280%;
-    margin-top: -200%;
-    transform: scale(0.25);
-  }
-}
-@media screen and (max-width: 390px) {
-  .mainPhotoContentSmallSizes {
-    width: 370%;
-    height: 280%;
-    margin-top: -200%;
-    transform: scale(0.22);
+    /* margin-top: 15vh; */
+    height: 65vh;
   }
 }
 @media screen and (max-width: 375px) {
   .mainPhotoContentSmallSizes {
-    width: 400%;
-    height: 320%;
-    margin-top: -200%;
-    transform: scale(0.25);
+    margin-top: 15vh;
+    width: 90vw;
+    height: 65vh;
   }
 }
 @media screen and (max-width: 360px) {
   .mainPhotoContentSmallSizes {
-    width: 400%;
+    margin-top: 15vh;
+    height: 60vh;
+    width: 100vw;
+    /* width: 400%;
     height: 290%;
     margin-top: -200%;
-    transform: scale(0.25);
+    transform: scale(0.25); */
   }
 }
 

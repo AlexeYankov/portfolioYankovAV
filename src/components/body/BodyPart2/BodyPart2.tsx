@@ -7,7 +7,10 @@ export type BodyType2 = {
 };
 
 const BodyPart2 = ({ scrollStatus }: BodyType2) => {
-  const offSetSkillsStyle = scrollStatus > 80 ? `${style.bodySub2part1} ${style._active}` : style.bodySub2part1;
+  const offSetSkillsStyle =
+    scrollStatus > 80
+      ? `${style.bodySub2part1} ${style._active}`
+      : style.bodySub2part1;
   return (
     <div id="Skills" className={style.bodySub2MainStyleContainer}>
       <div className={style.bodySub2}>

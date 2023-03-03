@@ -46,17 +46,19 @@ const BodyPart1 = () => {
               開發者 РАЗРАБ DEV 開發者 РАЗРАБ DEV
             </span>
           </span>
-          <img className={style.mainPhotoContent1} src={img2} alt="" />
-          <img className={style.mainPhotoContent2} src={img3} alt="" />
-          <img className={style.mainPhotoContent3} src={img4} alt="" />
-          <img className={style.mainPhotoContent4} src={img5} alt="" />
-          <img className={style.mainPhotoContent5} src={img6} alt="" />
-          <img className={style.mainPhotoContent6} src={img7} alt="" />
-          <img className={style.mainPhotoContent7} src={img8} alt="" />
-          <img className={style.mainPhotoContent8} src={img9} alt="" />
-          <img className={style.mainPhotoContent11} src={img11} alt="" />
-          <img className={style.mainPhotoContent12} src={img12} alt="" />
-          <div className={style.mainPhotoContentSmallSizes} />
+          {/* <div className={style.mainPhotoContainer}> */}
+            <img className={style.mainPhotoContent1} src={img2} alt="" />
+            <img className={style.mainPhotoContent2} src={img3} alt="" />
+            <img className={style.mainPhotoContent3} src={img4} alt="" />
+            <img className={style.mainPhotoContent4} src={img5} alt="" />
+            <img className={style.mainPhotoContent5} src={img6} alt="" />
+            <img className={style.mainPhotoContent6} src={img7} alt="" />
+            <img className={style.mainPhotoContent7} src={img8} alt="" />
+            <img className={style.mainPhotoContent8} src={img9} alt="" />
+            <img className={style.mainPhotoContent11} src={img11} alt="" />
+            <img className={style.mainPhotoContent12} src={img12} alt="" />
+            <div className={style.mainPhotoContentSmallSizes} />
+          {/* </div> */}
         </div>
       </div>
     </div>

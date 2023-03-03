@@ -1,5 +1,4 @@
 import { SkillsTypes } from "../BodyPart2/skillsDescription";
-import style from "../BodyPart2/BodyPart2.module.css";
 import MappedStars from "./mappedStars";
 
 export const mappedSkills = (
@@ -14,7 +13,7 @@ export const mappedSkills = (
     return (
       <div key={el.id} className={offSetContainerStyle}>
         <img
-          className={el.pictureStyle + " " + el.pictureStyleEdditional}
+          className={el.pictureStyle}
           src={el.picture}
           alt={el.title}
         />

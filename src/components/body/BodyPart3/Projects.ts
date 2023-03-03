@@ -17,15 +17,17 @@ export type ProjectsType = {
   scrollStatus: number;
 };
 
-const scrollStatusTop = 1200;
-const scrollStatusBottom = 1500;
+const scrollStatusTop = 1400;
+const scrollStatusTop1 = 1700;
+const scrollStatusBottom = 2000;
+const scrollStatusBottom1 = 2400;
 
 export const projects: ProjectsType[] = [
   {
     container: style.bodySub3part3,
     renderStyle: style._active1,
     projectPicture: `${
-      style.bodySub3part6 + " " + style._projectSpecificSocialNetwork
+      style.bodySub3part5 + " " + style._projectSpecificSocialNetwork
     }`,
     desctiptionStyle: style.projectSocialNetworkText,
     projectTextStyle: style.projectSocialNetwork,
@@ -38,7 +40,7 @@ export const projects: ProjectsType[] = [
     ],
     reversed: true,
     repo: "https://github.com/AlexeYankov/samuraiway",
-    demo: "",
+    demo: "https://alexeyankov.github.io/samuraiway/",
     buttonsStyleCode: style.buttonsStyleCode,
     buttonsStyleDemo: style.buttonsStyleDemo,
     buttonsContainer: style.buttonsContainer,
@@ -50,8 +52,8 @@ export const projects: ProjectsType[] = [
     projectPicture: `${
       style.bodySub3part5 + " " + style._projectSpecificCards
     }`,
-    desctiptionStyle: style.projectSocialNetworkText1,
-    projectTextStyle: style.projectSocialNetwork1,
+    desctiptionStyle: style.projectSocialNetworkText,
+    projectTextStyle: style.projectSocialNetwork,
     projectName: "Cards",
     desctiptionFeatures: [
       "1. Teamwork.",
@@ -64,14 +66,14 @@ export const projects: ProjectsType[] = [
     buttonsStyleCode: style.buttonsStyleCode,
     buttonsStyleDemo: style.buttonsStyleDemo,
     buttonsContainer: style.buttonsContainer,
-    scrollStatus: scrollStatusTop,
+    scrollStatus: scrollStatusTop1,
   },
   {
     container: style.bodySub3part3,
     renderStyle: style._active2,
-    projectPicture: `${style.bodySub3part6 + " " + style._projectSpecificToDo}`,
-    desctiptionStyle: style.projectSocialNetworkTextBottom,
-    projectTextStyle: style.projectSocialNetworkBottomLeft,
+    projectPicture: `${style.bodySub3part5 + " " + style._projectSpecificToDo}`,
+    desctiptionStyle: style.projectSocialNetworkText,
+    projectTextStyle: style.projectSocialNetwork,
     projectName: "To do",
     desctiptionFeatures: [
       "1. REST API requests.",
@@ -81,7 +83,7 @@ export const projects: ProjectsType[] = [
     ],
     reversed: true,
     repo: "https://github.com/AlexeYankov/Todolist",
-    demo: "s",
+    demo: "https://alexeyankov.github.io/Todolist/",
     buttonsStyleCode: style.buttonsStyleCode,
     buttonsStyleDemo: style.buttonsStyleDemo,
     buttonsContainer: style.buttonsContainer,
@@ -93,8 +95,8 @@ export const projects: ProjectsType[] = [
     projectPicture: `${
       style.bodySub3part5 + " " + style._projectSpecificHomeworks
     }`,
-    desctiptionStyle: style.projectSocialNetworkTextBottomRight,
-    projectTextStyle: style.projectSocialNetworkBottomRight,
+    desctiptionStyle: style.projectSocialNetworkText,
+    projectTextStyle: style.projectSocialNetwork,
     projectName: "Hello world!",
     desctiptionFeatures: [
       "1. React components.",
@@ -107,7 +109,7 @@ export const projects: ProjectsType[] = [
     buttonsStyleCode: style.buttonsStyleCode,
     buttonsStyleDemo: style.buttonsStyleDemo,
     buttonsContainer: style.buttonsContainer,
-    scrollStatus: scrollStatusBottom,
+    scrollStatus: scrollStatusBottom1,
   },
 ];
 
