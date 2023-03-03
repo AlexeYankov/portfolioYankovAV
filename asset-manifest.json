@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolioYankovAv/static/css/main.96b3eaee.css",
-    "main.js": "/portfolioYankovAv/static/js/main.b3911968.js",
+    "main.css": "/portfolioYankovAv/static/css/main.b703d032.css",
+    "main.js": "/portfolioYankovAv/static/js/main.2323b4d6.js",
     "static/js/787.b4051e8c.chunk.js": "/portfolioYankovAv/static/js/787.b4051e8c.chunk.js",
     "static/media/11.png": "/portfolioYankovAv/static/media/11.ed41e18a6635316827d8.png",
     "static/media/AboutPhoto.png": "/portfolioYankovAv/static/media/AboutPhoto.3b7e35750b7b66912b9d.png",
@@ -24,17 +24,20 @@
     "static/media/CSS3.png": "/portfolioYankovAv/static/media/CSS3.4e67641bb68b658d9b2b.png",
     "static/media/todo.png": "/portfolioYankovAv/static/media/todo.cf3102beafd1f1886db0.png",
     "static/media/Bodoni.woff": "/portfolioYankovAv/static/media/Bodoni.d982b004d9ce0a24e3e1.woff",
+    "static/media/REST.webp": "/portfolioYankovAv/static/media/REST.a547b12f9fa458a37f1e.webp",
     "static/media/Bodoni.woff2": "/portfolioYankovAv/static/media/Bodoni.1ef65e53d3b7b5f0d552.woff2",
     "static/media/sass.png": "/portfolioYankovAv/static/media/sass.3df9355b4a6e1bc1002b.png",
     "static/media/telegram.png": "/portfolioYankovAv/static/media/telegram.d77c2567ad173f0e9083.png",
     "static/media/codewars.svg": "/portfolioYankovAv/static/media/codewars.2142327c21001c79611268042f695351.svg",
+    "static/media/github.svg": "/portfolioYankovAv/static/media/github.255db585f8a0eb28a1e4deb91bde207d.svg",
     "index.html": "/portfolioYankovAv/index.html",
-    "main.96b3eaee.css.map": "/portfolioYankovAv/static/css/main.96b3eaee.css.map",
-    "main.b3911968.js.map": "/portfolioYankovAv/static/js/main.b3911968.js.map",
+    "static/media/mail.svg": "/portfolioYankovAv/static/media/mail.a9a8c84ad6d43bc769ea7a087ac4c76b.svg",
+    "main.b703d032.css.map": "/portfolioYankovAv/static/css/main.b703d032.css.map",
+    "main.2323b4d6.js.map": "/portfolioYankovAv/static/js/main.2323b4d6.js.map",
     "787.b4051e8c.chunk.js.map": "/portfolioYankovAv/static/js/787.b4051e8c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.96b3eaee.css",
-    "static/js/main.b3911968.js"
+    "static/css/main.b703d032.css",
+    "static/js/main.2323b4d6.js"
   ]
 }
