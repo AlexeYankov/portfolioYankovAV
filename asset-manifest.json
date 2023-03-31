@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolioYankovAv/static/css/main.b703d032.css",
-    "main.js": "/portfolioYankovAv/static/js/main.2323b4d6.js",
+    "main.css": "/portfolioYankovAv/static/css/main.bd04af91.css",
+    "main.js": "/portfolioYankovAv/static/js/main.fe8dcbd2.js",
     "static/js/787.b4051e8c.chunk.js": "/portfolioYankovAv/static/js/787.b4051e8c.chunk.js",
     "static/media/11.png": "/portfolioYankovAv/static/media/11.ed41e18a6635316827d8.png",
     "static/media/AboutPhoto.png": "/portfolioYankovAv/static/media/AboutPhoto.3b7e35750b7b66912b9d.png",
@@ -19,6 +19,7 @@
     "static/media/about.jpg": "/portfolioYankovAv/static/media/about.532ce33f5c59712e9ffe.jpg",
     "static/media/profile.png": "/portfolioYankovAv/static/media/profile.94365e94915d49f2fd40.png",
     "static/media/gulp.png": "/portfolioYankovAv/static/media/gulp.6feedbe4fbd75b6a7b35.png",
+    "static/media/Cards.JPG": "/portfolioYankovAv/static/media/Cards.acc4931516ca611c777d.JPG",
     "static/media/HTML5.png": "/portfolioYankovAv/static/media/HTML5.c4d9c8dcdf4078875355.png",
     "static/media/JS.png": "/portfolioYankovAv/static/media/JS.96a13af0147433eded9b.png",
     "static/media/CSS3.png": "/portfolioYankovAv/static/media/CSS3.4e67641bb68b658d9b2b.png",
@@ -32,12 +33,12 @@
     "static/media/github.svg": "/portfolioYankovAv/static/media/github.255db585f8a0eb28a1e4deb91bde207d.svg",
     "index.html": "/portfolioYankovAv/index.html",
     "static/media/mail.svg": "/portfolioYankovAv/static/media/mail.a9a8c84ad6d43bc769ea7a087ac4c76b.svg",
-    "main.b703d032.css.map": "/portfolioYankovAv/static/css/main.b703d032.css.map",
-    "main.2323b4d6.js.map": "/portfolioYankovAv/static/js/main.2323b4d6.js.map",
+    "main.bd04af91.css.map": "/portfolioYankovAv/static/css/main.bd04af91.css.map",
+    "main.fe8dcbd2.js.map": "/portfolioYankovAv/static/js/main.fe8dcbd2.js.map",
     "787.b4051e8c.chunk.js.map": "/portfolioYankovAv/static/js/787.b4051e8c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b703d032.css",
-    "static/js/main.2323b4d6.js"
+    "static/css/main.bd04af91.css",
+    "static/js/main.fe8dcbd2.js"
   ]
 }
