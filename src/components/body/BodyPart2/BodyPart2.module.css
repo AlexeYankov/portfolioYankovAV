@@ -20,7 +20,6 @@
   max-width: 1440px;
   /* height: 100%; */
   width: 100%;
-  border: 2px solid blue;
   /* align-items: center; */
   /* justify-content: center; */
   /* height: 100%;
@@ -68,7 +67,6 @@
   font-weight: bold;
   justify-content: center;
   align-items: center;
-  border: 1px solid red;
 }
 .bodySub2part3_1 {
   padding-top: 7%;
@@ -80,7 +78,6 @@
   font-weight: bold;
   justify-content: center;
   align-items: center;
-  border: 1px solid red;
 }
 
 .bodySub2part4Container {
@@ -93,7 +90,6 @@
   /* border: 1px solid red; */
   /* height: 20%; */
   /* margin-top: -10%; */
-  border: 1px solid red;
   padding: 5% 0px;
   font-size: 1.5em;
   font-weight: 500;
@@ -146,7 +142,6 @@
 }
 
 .animationSkillsHTML {
-  border: 1px solid brown;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -211,11 +206,13 @@
   max-height: 120px;
   width: 70%;
   min-width: 50px;
-  border: 1px solid red;
   object-fit: contain;
 }
 
 @media screen and (max-width: 1440px) {
+  .animationSkillsHTML {
+    transition: none;
+  }
   .bodySub2MainStyleContainer {
     min-height: 840px;
   }

@@ -19,8 +19,10 @@ const BodyPart1 = () => {
             <span>
               網絡 ウェブ WEB ВЕБ ağ 網絡 ウェブ WEB ВЕБ ağ 網絡 ウェブ WEB ВЕБ
               ağ 網絡 ウェブ WEB ВЕБ ağ 網絡 ウェブ WEB ВЕБ ağ
+              ağ 網絡 ウェブ WEB ВЕБ ağ 網絡 ウェブ WEB ВЕБ ağ
             </span>
             <span className={style.fontSizeText2}>
+              網絡 ウェブ WEB ВЕБ ağ 網絡 ウェブ WEB ВЕБ ağ 網絡 ウェブ WEB ВЕБ
               網絡 ウェブ WEB ВЕБ ağ 網絡 ウェブ WEB ВЕБ ağ 網絡 ウェブ WEB ВЕБ
               ağ 網絡 ウェブ WEB ВЕБ ağ 網絡 ウェブ WEB ВЕБ ağ 網絡 ウェブ WEB
               ВЕБ ağ

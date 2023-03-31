@@ -1,10 +1,12 @@
+import { propNames } from "@chakra-ui/react";
 import React from "react";
 import { ProjectsType } from "./Projects";
 
 export const projectComponent = (
   projectData: ProjectsType,
   scrollStatus: number,
-  reversed?: boolean
+  reversed?: boolean,
+  
 ) => {
   const project = projectData;
   const offSetProjectsTopStyle =
@@ -22,11 +24,11 @@ export const projectComponent = (
   const usualJSX = (
     <>
       <div className={project.buttonsContainer}>
-        <h3 className={project.projectTextStyle}>{project.projectName}</h3>
-        <span className={project.desctiptionStyle}>
-          <h4>Usefull Features: </h4>
-          <p>{mappedFeatures}</p>
-        </span>
+          <h3 className={project.projectTextStyle}>{project.projectName}</h3>
+          <span className={project.desctiptionStyle}>
+            <h4>Usefull Features: </h4>
+            <p>{mappedFeatures}</p>
+          </span>
       </div>
       <div className={project.projectPicture}>
         <a
@@ -65,12 +67,11 @@ export const projectComponent = (
         </a>
       </div>
       <div className={project.buttonsContainer}>
-      <h3 className={project.projectTextStyle}>{project.projectName}</h3>
+        <h3 className={project.projectTextStyle}>{project.projectName}</h3>
         <span className={project.desctiptionStyle}>
           <h4>Usefull Features: </h4>
           <p>{mappedFeatures}</p>
         </span>
-        
       </div>
     </>
   );

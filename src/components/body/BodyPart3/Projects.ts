@@ -18,7 +18,7 @@ export type ProjectsType = {
 };
 
 const scrollStatusTop = 1400;
-const scrollStatusTop1 = 1700;
+const scrollStatusTop1 = 1800;
 const scrollStatusBottom = 2000;
 const scrollStatusBottom1 = 2400;
 
@@ -59,10 +59,10 @@ export const projects: ProjectsType[] = [
       "1. Teamwork.",
       "2. Material UI.",
       "3. REST API.",
-      "4. TypeScript CSS.",
+      "4. TypeScript & Axios & CSS.",
     ],
-    repo: "",
-    demo: "",
+    repo: "https://github.com/Chernik1991/cards",
+    demo: "https://chernik1991.github.io/cards/",
     buttonsStyleCode: style.buttonsStyleCode,
     buttonsStyleDemo: style.buttonsStyleDemo,
     buttonsContainer: style.buttonsContainer,

@@ -3,9 +3,6 @@ import s from "./stars.module.css";
 type MappedStarsType = {
   stars: number;
   half?: boolean
-  //   containerStyle: string
-  //   solidStarsStyle: string
-  //   emptyStarsStyle: string
 };
 
 const MappedStars = ({ stars, half }: MappedStarsType) => {

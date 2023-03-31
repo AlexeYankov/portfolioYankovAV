@@ -42,7 +42,7 @@ a::before {
     margin-top: -3%;
     color:#fff;
     opacity: 0.96;
-    font-size: 6vh;
+    font-size: 50px;
     font-weight: 400;
 }
 
@@ -66,7 +66,7 @@ a::before {
     width: 100%;
     height: 10%;
     color:#fff;
-    font-size: 1.5rem;
+    font-size: 26px;
     justify-content: space-between;
 }
 .FooterPart3_1 {
@@ -147,6 +147,7 @@ a::before {
 @media screen and (max-width: 1440px) {
     .FooterPart3 {
         margin-left: 0;
+        font-size: 18px;
     }
     .FooterPart2 {
         width: 70%;
@@ -189,7 +190,7 @@ a::before {
         width: 100%;
     }
     .FooterPart3 {
-        font-size: 20px;
+        font-size: 16px;
     }
     .FooterPart5 {
         width: 100px;
@@ -200,8 +201,16 @@ a::before {
         min-height: 40px;
     } 
 }
+@media screen and (max-width: 980px) {
+    .FooterPart3 span {
+        font-size: 12px;
+    }
+    .FooterPart3 {
+        font-size: 16px;
+    }
+}
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 860px) {
     .FooterPart2 {
         margin-top: 5%;
         width: 80%;
@@ -216,5 +225,8 @@ a::before {
     .FooterPart6 {
         width: 60px;
         height: 60px;
+    }
+    .FooterPart3 span {
+        display: none;
     }
 }
