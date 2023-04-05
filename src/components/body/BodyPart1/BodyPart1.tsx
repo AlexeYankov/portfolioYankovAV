@@ -9,6 +9,10 @@ import img8 from "../../../imges/MainPhoto/7.png";
 import img9 from "../../../imges/MainPhoto/8.png";
 import img11 from "../../../imges/MainPhoto/11.png";
 import img12 from "../../../imges/MainPhoto/12.png";
+import lazyHOC from "../Lazy/LazyHOC";
+
+const SmallPic = () => <div className={style.mainPhotoContentSmallSizes} />
+const Part1 = lazyHOC(SmallPic);
 
 const BodyPart1 = () => {
   return (
@@ -48,7 +52,6 @@ const BodyPart1 = () => {
               開發者 РАЗРАБ DEV 開發者 РАЗРАБ DEV
             </span>
           </span>
-          {/* <div className={style.mainPhotoContainer}> */}
             <img className={style.mainPhotoContent1} src={img2} alt="" />
             <img className={style.mainPhotoContent2} src={img3} alt="" />
             <img className={style.mainPhotoContent3} src={img4} alt="" />
@@ -59,8 +62,7 @@ const BodyPart1 = () => {
             <img className={style.mainPhotoContent8} src={img9} alt="" />
             <img className={style.mainPhotoContent11} src={img11} alt="" />
             <img className={style.mainPhotoContent12} src={img12} alt="" />
-            <div className={style.mainPhotoContentSmallSizes} />
-          {/* </div> */}
+            <Part1/>
         </div>
       </div>
     </div>

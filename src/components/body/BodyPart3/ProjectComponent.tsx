@@ -5,8 +5,7 @@ import { ProjectsType } from "./Projects";
 export const projectComponent = (
   projectData: ProjectsType,
   scrollStatus: number,
-  reversed?: boolean,
-  
+  reversed?: boolean
 ) => {
   const project = projectData;
   const offSetProjectsTopStyle =
@@ -22,13 +21,13 @@ export const projectComponent = (
     );
   });
   const usualJSX = (
-    <>
+    <React.Fragment key={crypto.randomUUID()}>
       <div className={project.buttonsContainer}>
-          <h3 className={project.projectTextStyle}>{project.projectName}</h3>
-          <span className={project.desctiptionStyle}>
-            <h4>Usefull Features: </h4>
-            <p>{mappedFeatures}</p>
-          </span>
+        <h3 className={project.projectTextStyle}>{project.projectName}</h3>
+        <span className={project.desctiptionStyle}>
+          <h4>Usefull Features: </h4>
+          <p>{mappedFeatures}</p>
+        </span>
       </div>
       <div className={project.projectPicture}>
         <a
@@ -46,10 +45,10 @@ export const projectComponent = (
           CODE
         </a>
       </div>
-    </>
+    </React.Fragment>
   );
   const reversedJSX = (
-    <>
+    <React.Fragment key={crypto.randomUUID()}>
       <div className={project.projectPicture}>
         <a
           className={project.buttonsStyleDemo}
@@ -73,7 +72,7 @@ export const projectComponent = (
           <p>{mappedFeatures}</p>
         </span>
       </div>
-    </>
+    </React.Fragment>
   );
   return (
     <div className={offSetProjectsTopStyle}>

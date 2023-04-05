@@ -6,7 +6,6 @@ import { useEffect, useState } from "react";
 
 function App() {
   const [scrollY, setScrollToY] = useState<number>(window.pageYOffset);
-  console.log(scrollY);
 
   const windowScroll = () => {
     setScrollToY(window.pageYOffset);
@@ -16,11 +15,11 @@ function App() {
     function setScrollY() {
       window.addEventListener("scroll", windowScroll);
     }
-    // if (window.screen.width <= 1440) {
-    //   setScrollToY(9999);
-    // } else {
-    //   setScrollY();
-    // }
+    if (window.screen.width <= 1440) {
+      setScrollToY(9999);
+    } else {
+      setScrollY();
+    }
     setScrollY();
   });
 

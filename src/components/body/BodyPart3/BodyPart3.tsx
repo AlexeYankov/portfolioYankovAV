@@ -8,9 +8,9 @@ const BodyPart3 = ({ scrollStatus }: BodyType2) => {
     scrollStatus > 980
       ? `${style.bodySub3part1} ${style._active}`
       : `${style.bodySub3part1}`;
-  const projectsData = projectsList.map((el, id) => {
+  const projectsData = projectsList.map((el) => {
    
-    return projectComponent(el, scrollStatus, el.reversed);
+    return <div key={el.scrollStatus} style={{width: '100%', height: '100%'}}>{projectComponent(el, scrollStatus, el.reversed)}</div>
   });
 
   return (

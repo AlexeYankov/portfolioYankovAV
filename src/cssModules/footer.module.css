@@ -17,7 +17,7 @@ a::before {
 }
 
 .FooterStyleContainer {
-    background-color: hwb(212 0% 90% / 0.942);
+    background-color: #0F1A27;
     display: flex;
     height: 45vh;
     align-items: flex-end;

@@ -10,7 +10,7 @@
 .sectionName {
   background-color: #eeeeee;
   display: flex;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   justify-content: center;
 }
 .sectionName h {
@@ -18,7 +18,7 @@
 }
 
 .container {
-  padding: 100px;
+  padding: 150px 0px;
   display: flex;
   height: 100%;
   max-width: 1440px;
@@ -103,14 +103,23 @@
 }
 
 @media screen and (max-width: 1440px) {
+  .container{
+    padding: 100px 0px;
+  }
   .description {
     font-size: 36px;
+  }
+  .bodySub5part1._active {
+    opacity: 0;
   }
   .description__text {
     font-size: 18px;
   }
 }
 @media screen and (max-width: 1080px) {
+  .container{
+    padding: 50px 0px;
+  }
   .container__aboutDescription {
     width: 600px;
   }
@@ -129,6 +138,9 @@
   }
 }
 @media screen and (max-width: 920px) {
+  .container{
+    padding: 10px 0px;
+  }
   .container__aboutDescription {
     width: 450px;
     height: 400px;
@@ -149,6 +161,9 @@
 }
 
 @media screen and (max-width: 780px) {
+  .container{
+    padding: 0px;
+  }
   .container__aboutDescription {
     padding-left: 0px;
   }
@@ -164,10 +179,23 @@
   }
 }
 
+/*!figrjig*/
+
 @media screen and (max-width: 630px) {
+  .sectionName {
+    justify-content: center;
+  }
+  .bodySub5part1._active {
+    width: 0px;
+    padding: 0px;
+    margin: 0px;
+  }
+  .container{
+    flex-direction: column;
+  }
   .container__aboutDescription {
-    width: 400px;
-    height: 400px;
+    width: auto;
+    height: auto;
   }
   .container__mainPicture {
     height: 350px;
@@ -179,10 +207,6 @@
 }
 
 @media screen and (max-width: 540px) {
-  .container__aboutDescription {
-    width: 400px;
-    height: 200px;
-  }
   .container__mainPicture {
     height: 250px;
     width: 200px;
@@ -196,14 +220,6 @@
 }
 
 @media screen and (max-width: 460px) {
-  .container__aboutDescription {
-    width: 350px;
-    height: 200px;
-  }
-  .container__mainPicture {
-    height: 200px;
-    width: 150px;
-  }
   .description {
     font-size: 10px;
   }
@@ -213,10 +229,6 @@
 }
 
 @media screen and (max-width: 380px) {
-  .container__aboutDescription {
-    width: 300px;
-    height: 200px;
-  }
   .container__mainPicture {
     height: 200px;
     width: 150px;
