@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkportfolioYankovAv=self.webpackChunkportfolioYankovAv||[]).push([[871],{871:function(o,n,t){t.r(n);var a=t(711),e=t(184);n.default=function(){return(0,e.jsx)("div",{className:a.Z.mainPhotoContentSmallSizes})}}}]);
+//# sourceMappingURL=871.d02e18a7.chunk.js.map
