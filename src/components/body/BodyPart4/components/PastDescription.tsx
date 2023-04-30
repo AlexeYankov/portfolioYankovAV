@@ -7,7 +7,7 @@ export const PastDescription = () => {
         PAST
         <ul className={ style.description__text + " " + style.description__past__points } >
           <li>
-            <b>Last job place:</b> Cheif deputie of planning engeneeir
+            <b>Last job place:</b> Cheif deputie of planning engineer
           </li>
           <li>
             <b>Education:</b> Civil engineer specialist degree

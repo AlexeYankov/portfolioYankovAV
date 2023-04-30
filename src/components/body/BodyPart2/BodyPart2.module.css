@@ -1,30 +1,17 @@
 .bodySub2MainStyleContainer {
   background-color: #eeeeee;
-  /* display: flex; */
   min-height: 1080px;
-  /* min-width: 100vw; */
   justify-content: center;
   align-items: center;
-  /* padding: auto 100px; */
-  /* border: 1px solid red; */
-  /* max-width: 1440px; */
 }
 
 .bodySub2 {
   padding-top: 3%;
   flex-wrap: wrap;
   display: flex;
-  /* display: flex; */
   display: inline-block;
-  /* border: 2px solid blue; */
   max-width: 1440px;
-  /* height: 100%; */
   width: 100%;
-  /* align-items: center; */
-  /* justify-content: center; */
-  /* height: 100%;
-  width: 100%; */
-  /* height: 100%; */
 }
 
 .bodySub2part1 {
@@ -48,9 +35,6 @@
 .bodySub2part2 {
   flex-wrap: wrap;
   display: flex;
-  /* height: 100%; */
-  /* width: 100%;
-  height: 70%; */
   justify-content: space-between;
   font-weight: bold;
 }
@@ -61,9 +45,7 @@
   height: 50%;
   max-height: 55%;
   width: 100%;
-  /* width: 100%; */
   display: flex;
-  /* width: 100vw; */
   font-weight: bold;
   justify-content: center;
   align-items: center;
