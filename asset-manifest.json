@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolioYankovAv/static/css/main.ab124028.css",
-    "main.js": "/portfolioYankovAv/static/js/main.75fae743.js",
+    "main.js": "/portfolioYankovAv/static/js/main.fea26a39.js",
     "static/js/871.d02e18a7.chunk.js": "/portfolioYankovAv/static/js/871.d02e18a7.chunk.js",
     "static/js/970.bb57f2c7.chunk.js": "/portfolioYankovAv/static/js/970.bb57f2c7.chunk.js",
     "static/js/787.b4051e8c.chunk.js": "/portfolioYankovAv/static/js/787.b4051e8c.chunk.js",
@@ -37,13 +37,13 @@
     "index.html": "/portfolioYankovAv/index.html",
     "static/media/mail.svg": "/portfolioYankovAv/static/media/mail.a9a8c84ad6d43bc769ea7a087ac4c76b.svg",
     "main.ab124028.css.map": "/portfolioYankovAv/static/css/main.ab124028.css.map",
-    "main.75fae743.js.map": "/portfolioYankovAv/static/js/main.75fae743.js.map",
+    "main.fea26a39.js.map": "/portfolioYankovAv/static/js/main.fea26a39.js.map",
     "871.d02e18a7.chunk.js.map": "/portfolioYankovAv/static/js/871.d02e18a7.chunk.js.map",
     "970.bb57f2c7.chunk.js.map": "/portfolioYankovAv/static/js/970.bb57f2c7.chunk.js.map",
     "787.b4051e8c.chunk.js.map": "/portfolioYankovAv/static/js/787.b4051e8c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ab124028.css",
-    "static/js/main.75fae743.js"
+    "static/js/main.fea26a39.js"
   ]
 }
