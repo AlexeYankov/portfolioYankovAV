@@ -121,10 +121,11 @@
 }
 
 .mainPhotoContent1 {
-  left: 34%;
+  left: 33%;
   top: 51.75%;
   height: 48.5%;
   z-index: 11;
+  position: absolute;
   display: flex;
   flex-wrap: wrap;
   animation: rotatePhoto5;
@@ -134,9 +135,9 @@
   background-color: none;
 }
 .mainPhotoContent2 {
-  left: 34%;
+  left: 33%;
   top: 51.75%;
-  /* position: absolute; */
+  position: absolute;
   height: 48%;
   z-index: 14;
   display: flex;
@@ -148,7 +149,7 @@
   background-color: none;
 }
 .mainPhotoContent3 {
-  left: 47.5%;
+  left: 48.5%;
   top: 51.25%;
   position: absolute;
   height: 49%;
@@ -162,7 +163,7 @@
   background-color: none;
 }
 .mainPhotoContent4 {
-  left: 47.5%;
+  left: 48.5%;
   top: 51.25%;
   position: absolute;
   height: 50%;
