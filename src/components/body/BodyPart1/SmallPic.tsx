@@ -1,6 +1,6 @@
 import style from "../BodyPart1/BodyPart1.module.css";
 
-const SmallPicJSX = () => {
+export const SmallPicJSX = () => {
   return <div className={style.mainPhotoContentSmallSizes} />;
 };
 

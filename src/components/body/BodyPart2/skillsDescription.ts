@@ -29,9 +29,6 @@ export type SkillsTypes = {
   starsContainerStyle: string;
 };
 
-// const currentTag: HTMLElement = document.getElementById("Skills")!;
-// const positionY = currentTag.getBoundingClientRect().top - currentTag.getBoundingClientRect().top/10;
-
 const pictureStyleNormal = style.bodySub2part4PictureLeft1;
 const descriptionStyleNormal = style.bodySub2part4DescriptionLeft1;
 const animationStyleNormal = style.animationSkillsHTML;

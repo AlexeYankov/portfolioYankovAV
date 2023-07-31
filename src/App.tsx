@@ -5,10 +5,9 @@ import Footer from "./components/footer/Footer";
 import { useEffect, useState } from "react";
 
 function App() {
-  const [scrollY, setScrollToY] = useState<number>(window.pageYOffset);
-
+  const [scrollY, setScrollToY] = useState<number>(window.scrollY);
   const windowScroll = () => {
-    setScrollToY(window.pageYOffset);
+    setScrollToY(window.scrollY);
   };
 
   useEffect(() => {
@@ -21,7 +20,7 @@ function App() {
       setScrollY();
     }
     setScrollY();
-  });
+  }, [scrollY]);
 
   return (
     <div className="App">

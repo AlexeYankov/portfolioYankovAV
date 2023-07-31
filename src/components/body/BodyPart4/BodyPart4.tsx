@@ -20,8 +20,8 @@ const BodyPart5 = ({ scrollStatus }: BodyType2) => {
         <div className={style.container}>
           <img className={style.container__mainPicture} src={mainPic} alt="" />
           <div className={style.container__aboutDescription}>
-            <PastDescription />
             <FutureDescription />
+            <PastDescription />
           </div>
         </div>
       </div>
