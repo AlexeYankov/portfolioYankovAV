@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolioYankovAv/static/css/main.305fa5e6.css",
-    "main.js": "/portfolioYankovAv/static/js/main.4bf113b7.js",
+    "main.css": "/portfolioYankovAv/static/css/main.623f4b5a.css",
+    "main.js": "/portfolioYankovAv/static/js/main.bc7ccf26.js",
     "static/js/871.de770864.chunk.js": "/portfolioYankovAv/static/js/871.de770864.chunk.js",
     "static/js/970.b8d32f90.chunk.js": "/portfolioYankovAv/static/js/970.b8d32f90.chunk.js",
     "static/js/787.b4051e8c.chunk.js": "/portfolioYankovAv/static/js/787.b4051e8c.chunk.js",
@@ -36,14 +36,14 @@
     "static/media/github.svg": "/portfolioYankovAv/static/media/github.255db585f8a0eb28a1e4deb91bde207d.svg",
     "index.html": "/portfolioYankovAv/index.html",
     "static/media/mail.svg": "/portfolioYankovAv/static/media/mail.a9a8c84ad6d43bc769ea7a087ac4c76b.svg",
-    "main.305fa5e6.css.map": "/portfolioYankovAv/static/css/main.305fa5e6.css.map",
-    "main.4bf113b7.js.map": "/portfolioYankovAv/static/js/main.4bf113b7.js.map",
+    "main.623f4b5a.css.map": "/portfolioYankovAv/static/css/main.623f4b5a.css.map",
+    "main.bc7ccf26.js.map": "/portfolioYankovAv/static/js/main.bc7ccf26.js.map",
     "871.de770864.chunk.js.map": "/portfolioYankovAv/static/js/871.de770864.chunk.js.map",
     "970.b8d32f90.chunk.js.map": "/portfolioYankovAv/static/js/970.b8d32f90.chunk.js.map",
     "787.b4051e8c.chunk.js.map": "/portfolioYankovAv/static/js/787.b4051e8c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.305fa5e6.css",
-    "static/js/main.4bf113b7.js"
+    "static/css/main.623f4b5a.css",
+    "static/js/main.bc7ccf26.js"
   ]
 }
