@@ -692,7 +692,7 @@
         transform: scale(auto);
     }
     .fontSizeForMainPicture {
-        overflow-x: hidden;
+        overflow: hidden;
     }
     .fontSizeForMainPicture img {
         display: none;
@@ -701,7 +701,7 @@
         animation: none;
         margin-left: -233vw;
     }
-    .fontSizeText1 span {
+    /* .fontSizeText1 span {
         overflow-x: hidden;
     }
     .fontSizeText3 span {
@@ -712,7 +712,7 @@
     }
     .fontSizeText5 span {
         overflow-x: hidden;
-    }
+    } */
     .fontSizeText2 {
         animation: none;
         display: none;
