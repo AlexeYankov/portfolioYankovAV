@@ -693,7 +693,6 @@
     }
     .fontSizeForMainPicture {
         overflow-x: hidden;
-        border: 3px solid yellow;
     }
     .fontSizeForMainPicture img {
         display: none;
