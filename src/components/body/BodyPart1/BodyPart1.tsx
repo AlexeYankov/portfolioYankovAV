@@ -27,7 +27,7 @@ const BodyPart1 = () => {
                         <span className={style.fontSizeText4}>{sectionText.middle}</span>
                     </span>
                     <span className={style.fontSizeText5}>
-                        {sectionText.bottom}
+                        <span>{sectionText.bottom}</span>
                         <span className={style.fontSizeText2}>{sectionText.bottom}</span>
                     </span>
                     {<FinalPicSize />}

@@ -32,6 +32,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    overflow-x: hidden;
 }
 
 .fontSizeText1 {
@@ -690,15 +691,33 @@
         margin-top: 3%;
         transform: scale(auto);
     }
+    .fontSizeForMainPicture {
+        overflow-x: hidden;
+        border: 3px solid yellow;
+    }
     .fontSizeForMainPicture img {
         display: none;
     }
     .fontSizeText1 {
         animation: none;
-        margin-left: -2330vw;
+        margin-left: -233vw;
+    }
+    .fontSizeText1 span {
+        overflow-x: hidden;
+    }
+    .fontSizeText3 span {
+        overflow-x: hidden;
+    }
+    .fontSizeText2 span {
+        overflow-x: hidden;
+    }
+    .fontSizeText5 span {
+        overflow-x: hidden;
     }
     .fontSizeText2 {
         animation: none;
+        display: none;
+        /* top: -20px; */
     }
     .fontSizeText3 {
         animation: none;
@@ -706,7 +725,8 @@
     }
     .fontSizeText4 {
         animation: none;
-        margin-left: -200vw;
+        display: none;
+        /* border: 3px solid blue; */
     }
     .fontSizeText5 {
         animation: none;
