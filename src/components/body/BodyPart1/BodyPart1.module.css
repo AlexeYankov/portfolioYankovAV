@@ -32,7 +32,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 .fontSizeText1 {
@@ -691,9 +691,7 @@
         margin-top: 3%;
         transform: scale(auto);
     }
-    .fontSizeForMainPicture {
-        overflow: hidden;
-    }
+    
     .fontSizeForMainPicture img {
         display: none;
     }
@@ -701,22 +699,9 @@
         animation: none;
         margin-left: -233vw;
     }
-    /* .fontSizeText1 span {
-        overflow-x: hidden;
-    }
-    .fontSizeText3 span {
-        overflow-x: hidden;
-    }
-    .fontSizeText2 span {
-        overflow-x: hidden;
-    }
-    .fontSizeText5 span {
-        overflow-x: hidden;
-    } */
     .fontSizeText2 {
         animation: none;
         display: none;
-        /* top: -20px; */
     }
     .fontSizeText3 {
         animation: none;
@@ -725,7 +710,6 @@
     .fontSizeText4 {
         animation: none;
         display: none;
-        /* border: 3px solid blue; */
     }
     .fontSizeText5 {
         animation: none;

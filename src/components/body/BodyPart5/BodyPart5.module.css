@@ -84,20 +84,10 @@
 
 @media screen and (max-width: 2100px) {
     .bodySub4part2 {
-        /* overflow: hidden; */
-        /* border: 1px solid red; */
-        /* color: red; */
         display: none;
     }
-    /* .bodySub4part1 {
-        overflow-x: hidden;
-        border: 1px solid red;
-        color: red;
-    } */
     .bodySub4 span {
         overflow-x: hidden;
-        /* border: 1px solid red; */
-        /* color: red; */
     }
 }
 @media screen and (max-width: 1440px) {
