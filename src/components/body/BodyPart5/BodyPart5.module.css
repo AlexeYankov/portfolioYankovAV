@@ -83,11 +83,9 @@
 }
 
 @media screen and (max-width: 2100px) {
-    .bodySub4part2 {
-        display: none;
-    }
-    .bodySub4 span {
-        overflow-x: hidden;
+    .bodySub4 {
+        overflow: hidden; 
+        position: relative; 
     }
 }
 @media screen and (max-width: 1440px) {
@@ -109,9 +107,8 @@
     }
 
     .bodySub4part1 {
-        margin: 0;
         display: flex;
-        height: 30%;
+        height: 100%;
     }
 
     .bodySub4part3 {
@@ -119,11 +116,5 @@
         display: flex;
         font-size: 1.2em;
         background-color: red;
-    }
-}
-
-@media screen and (max-width: 450px) {
-    .bodySub4part1 {
-        height: 55%;
     }
 }
