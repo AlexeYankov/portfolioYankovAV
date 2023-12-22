@@ -54,7 +54,7 @@
         width: 100%;
     }
     .headerStyleBarWrapper {
-        width: 100%;
+        max-width: 100%;
         align-items: center;
         display: flex;
         right: 0%;

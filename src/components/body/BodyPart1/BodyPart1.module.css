@@ -686,9 +686,11 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-        width: 45vw;
-        height: 95vh;
-        margin-top: 3%;
+        max-width: 530px;
+        width: 100%;
+        max-height: 100%;
+        /* margin-top: -40px; */
+        margin-top: 10px;
         transform: scale(auto);
     }
     
@@ -716,19 +718,8 @@
         margin-left: -120vw;
     }
 }
-@media screen and (max-width: 1320px) {
-    .mainPhotoContentSmallSizes {
-        width: 50vw;
-        margin-top: 5vh;
-    }
-}
 
-@media screen and (max-width: 1090px) {
-    .mainPhotoContentSmallSizes {
-        width: 60vw;
-        height: 90vh;
-        transform: scale(auto);
-    }
+@media screen and (max-width: 1068px) {
     .fontSizeText2 {
         display: none;
     }
@@ -736,33 +727,34 @@
         display: none;
     }
 }
-@media screen and (max-width: 960px) {
-    .mainPhotoContentSmallSizes {
-        width: 60vw;
-        height: 80vh;
-    }
-}
+
 @media screen and (max-width: 830px) {
     .mainPhotoContentSmallSizes {
-        width: 70vw;
+        /* width: 70vw; */
+        /* height: 90vh; */
+        /* max-width: 230px; */
     }
 }
+
 @media screen and (max-width: 770px) {
     .mainPhotoContentSmallSizes {
         height: 90vh;
     }
 }
+
 @media screen and (max-width: 740px) {
     .mainPhotoContentSmallSizes {
         margin-top: 8vh;
         width: 88vw;
     }
 }
+
 @media screen and (max-width: 690px) {
     .mainPhotoContentSmallSizes {
         width: 85vw;
     }
 }
+
 @media screen and (max-width: 620px) {
     .mainPhotoContentSmallSizes {
         margin-top: 10vh;
@@ -770,17 +762,20 @@
         height: 75vh;
     }
 }
+
 @media screen and (max-width: 480px) {
     .mainPhotoContentSmallSizes {
         width: 100vw;
         height: 70vh;
     }
 }
+
 @media screen and (max-width: 450px) {
     .mainPhotoContentSmallSizes {
         height: 65vh;
     }
 }
+
 @media screen and (max-width: 375px) {
     .mainPhotoContentSmallSizes {
         margin-top: 15vh;
@@ -788,6 +783,7 @@
         height: 65vh;
     }
 }
+
 @media screen and (max-width: 360px) {
     .mainPhotoContentSmallSizes {
         margin-top: 15vh;
