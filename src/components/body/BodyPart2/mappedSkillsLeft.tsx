@@ -10,7 +10,7 @@ export const mappedSkills = (scrollStatus: number, skillsArray: Array<SkillsType
         return (
             <div key={el.id} className={offSetContainerStyle}>
                 <img className={el.pictureStyle} src={el.picture} alt={el.title} />
-                <div className={el.starsContainerStyle}>{el.title}</div>
+                <label className={el.starsContainerStyle}>{el.title}</label>
                 <MappedStars stars={el.skillStars} half={el.half} />
             </div>
         );

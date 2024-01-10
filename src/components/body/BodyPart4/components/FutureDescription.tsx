@@ -7,10 +7,10 @@ export const FutureDescription = () => {
         FUTURE
         <ul className={ style.description__text + " " + style.description__past__points } >
           <li>
-            <b> Current target:</b> Junior frontend developer
+            <b> Current target:</b> Middle frontend developer
           </li>
           <li>
-            <b> Goal:</b> Senior frontend developer
+            <b> Goal:</b> Tech lead frontend developer
           </li>
         </ul>
       </div>

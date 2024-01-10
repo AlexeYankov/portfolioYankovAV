@@ -738,6 +738,7 @@
 
 @media screen and (max-width: 770px) {
     .mainPhotoContentSmallSizes {
+        margin-top: 70px;
         height: 90vh;
     }
 }
@@ -757,37 +758,38 @@
 
 @media screen and (max-width: 620px) {
     .mainPhotoContentSmallSizes {
-        margin-top: 10vh;
+        /* margin-top: 10vh; */
+        margin-top: 70px;
         width: 90vw;
-        height: 75vh;
+        /* height: 75vh; */
     }
 }
 
 @media screen and (max-width: 480px) {
     .mainPhotoContentSmallSizes {
         width: 100vw;
-        height: 70vh;
+        /* height: 70vh; */
     }
 }
 
 @media screen and (max-width: 450px) {
     .mainPhotoContentSmallSizes {
-        height: 65vh;
+        height: 75vh;
     }
 }
 
 @media screen and (max-width: 375px) {
     .mainPhotoContentSmallSizes {
-        margin-top: 15vh;
-        width: 90vw;
-        height: 65vh;
+        /* margin-top: 15vh; */
+        /* width: 95vw; */
+        height: 70vh;
     }
 }
 
 @media screen and (max-width: 360px) {
     .mainPhotoContentSmallSizes {
-        margin-top: 15vh;
+        /* margin-top: 15vh;
         height: 60vh;
-        width: 100vw;
+        width: 100vw; */
     }
 }

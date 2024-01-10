@@ -1,5 +1,3 @@
-
-
 a:hover {
     transform: scale(1.07);
     transition: all 0.3s ease-in-out;
@@ -60,13 +58,12 @@ a::before {
     padding: 0;
     margin-top: -3%;
 }
-
 .FooterPart3 {
     display: flex;
     width: 100%;
-    height: 10%;
     color:#fff;
     font-size: 26px;
+    gap: 30px;
     justify-content: space-between;
 }
 .FooterPart3_1 {
@@ -95,16 +92,6 @@ a::before {
     align-items: center;
     justify-content: center;
     text-decoration: none;
-}
-.FooterPart7 {
-    /* display: flex;
-    border-radius: 16px;
-    height: 100%;
-    width: 14%;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none; */
 }
 .FooterPart6 {
     display: flex;
@@ -152,6 +139,9 @@ a::before {
     .FooterPart2 {
         width: 70%;
     }
+    .FooterPart2 a {
+        width: 80px;
+    }
     .FooterPart5 {
         min-width: 40px;
         min-height: 40px;
@@ -192,14 +182,6 @@ a::before {
     .FooterPart3 {
         font-size: 16px;
     }
-    .FooterPart5 {
-        width: 100px;
-        min-height: 40px;
-    } 
-    .FooterPart6 {
-        width: 100px;
-        min-height: 40px;
-    } 
 }
 @media screen and (max-width: 980px) {
     .FooterPart3 span {

@@ -51,19 +51,19 @@ div {
 
 .bodySub3part3._active1 {
   opacity: 1;
-  transition: all calc(0.35s + 0.6s) ease calc(0.35s);
+  transition: all calc(0.35s + 0.4s) ease calc(0.35s);
 }
 .bodySub3part3._active2 {
   opacity: 1;
-  transition: all calc(0.35s + 0.6s) ease calc(0.35s + 0.4s);
+  transition: all calc(0.35s + 0.2s) ease calc(0.35s + 0.4s);
 }
 .bodySub3part4._active1 {
   opacity: 1;
-  transition: all calc(0.35s + 0.6s) ease calc(0.35s + 0.2s);
+  transition: all calc(0.35s + 0.2s) ease calc(0.35s + 0.2s);
 }
 .bodySub3part4._active2 {
   opacity: 1;
-  transition: all calc(0.35s + 0.6s) ease calc(0.35s + 0.6s);
+  transition: all calc(0.35s + 0.3s) ease calc(0.35s + 0.3s);
 }
 
 .bodySub3part3 {
@@ -108,7 +108,7 @@ div {
   box-shadow: 22px 22px 18px rgb(255, 255, 255, 0.3);
 }
 .bodySub3part5._projectSpecificHomeworks {
-  background-image: url("../../../imges/ProjectsPhotos/Homeworks.png");
+  background-image: url("../../../imges/ProjectsPhotos/nextjs.png");
   box-shadow: 22px 22px 18px rgba(61, 118, 239, 0.3);
 }
 .bodySub3part5:hover {

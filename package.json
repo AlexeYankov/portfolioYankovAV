@@ -2,7 +2,7 @@
   "name": "portfolioYankovAv",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://AlexeYankov.github.io/portfolioYankovAv",
+  "homepage": "https://AlexeYankov.github.io/portfolioYankovAV",
   "dependencies": {
     "@chakra-ui/react": "^2.5.1",
     "@emotion/react": "^11.10.6",
