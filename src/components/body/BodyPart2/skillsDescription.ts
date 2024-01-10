@@ -2,13 +2,13 @@ import style from "../BodyPart2/BodyPart2.module.css";
 import html from "../../../imges/skills/HTML5.png";
 import css from "../../../imges/skills/CSS3.png";
 import git from "../../../imges/skills/git.png";
-import gulp from "../../../imges/skills/gulp.png";
+import gulp from "../../../imges/skills/Next.png";
 import javaScript from "../../../imges/skills/JS.png";
 import typeScript from "../../../imges/skills/TS.png";
 import react from "../../../imges/skills/React-icon.svg.png";
 import redux from "../../../imges/skills/redux.png";
 import webpack from "../../../imges/skills/webpack.png";
-import sass from "../../../imges/skills/sass.png";
+import sass from "../../../imges/skills/SCSS.png";
 import restapi from "../../../imges/skills/REST.webp";
 import mui from "../../../imges/skills/material-ui.png";
 
@@ -140,7 +140,7 @@ export const skillsLeft: Array<SkillsTypes> = [
 export const skillsRight: Array<SkillsTypes> = [
   {
     id: 49,
-    title: "SASS",
+    title: "SCSS",
     picture: sass,
     description:
       "SASS — система управления версиями с распределенной архитектурой",
@@ -222,7 +222,7 @@ export const skillsRight: Array<SkillsTypes> = [
   },
   {
     id: 3,
-    title: "Gulp",
+    title: "Next.js",
     picture: gulp,
     description:
       "Gulp — Менеджер для организации и выполнения задач при разработке приложений с использованием платформы Node.js",
