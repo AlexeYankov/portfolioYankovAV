@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolioYankovAV/static/css/main.559dd3ac.css",
-    "main.js": "/portfolioYankovAV/static/js/main.c1b28f79.js",
+    "main.js": "/portfolioYankovAV/static/js/main.1d215173.js",
     "static/js/871.de770864.chunk.js": "/portfolioYankovAV/static/js/871.de770864.chunk.js",
     "static/js/970.b8d32f90.chunk.js": "/portfolioYankovAV/static/js/970.b8d32f90.chunk.js",
     "static/js/787.b4051e8c.chunk.js": "/portfolioYankovAV/static/js/787.b4051e8c.chunk.js",
@@ -19,31 +19,31 @@
     "static/media/6.png": "/portfolioYankovAV/static/media/6.9cb9fbea166172735926.png",
     "static/media/5.png": "/portfolioYankovAV/static/media/5.240cf8db196c6ad41e97.png",
     "static/media/profile.png": "/portfolioYankovAV/static/media/profile.94365e94915d49f2fd40.png",
-    "static/media/gulp.png": "/portfolioYankovAV/static/media/gulp.6feedbe4fbd75b6a7b35.png",
     "static/media/Cards.JPG": "/portfolioYankovAV/static/media/Cards.acc4931516ca611c777d.JPG",
     "static/media/HTML5.png": "/portfolioYankovAV/static/media/HTML5.c4d9c8dcdf4078875355.png",
     "static/media/JS.png": "/portfolioYankovAV/static/media/JS.96a13af0147433eded9b.png",
     "static/media/nextjs.png": "/portfolioYankovAV/static/media/nextjs.f327ebe0d5e2e64a93f9.png",
     "static/media/CSS3.png": "/portfolioYankovAV/static/media/CSS3.4e67641bb68b658d9b2b.png",
+    "static/media/SCSS.png": "/portfolioYankovAV/static/media/SCSS.251c12e28ec1a79f2a76.png",
     "static/media/todo.png": "/portfolioYankovAV/static/media/todo.cf3102beafd1f1886db0.png",
     "static/media/Bodoni.woff": "/portfolioYankovAV/static/media/Bodoni.d982b004d9ce0a24e3e1.woff",
     "static/media/REST.webp": "/portfolioYankovAV/static/media/REST.a547b12f9fa458a37f1e.webp",
     "static/media/Bodoni.woff2": "/portfolioYankovAV/static/media/Bodoni.1ef65e53d3b7b5f0d552.woff2",
-    "static/media/sass.png": "/portfolioYankovAV/static/media/sass.3df9355b4a6e1bc1002b.png",
     "static/media/telegram.png": "/portfolioYankovAV/static/media/telegram.d77c2567ad173f0e9083.png",
+    "static/media/Next.png": "/portfolioYankovAV/static/media/Next.8a50d0d9bf3fd0c2caae.png",
     "static/media/codewars.svg": "/portfolioYankovAV/static/media/codewars.e12d5949fdaeb49ab434583e40ddacbb.svg",
     "static/media/gooey-balls-2.svg": "/portfolioYankovAV/static/media/gooey-balls-2.f2d85eaf22050d3aef8c8dc959300e3f.svg",
     "static/media/github.svg": "/portfolioYankovAV/static/media/github.3ea7d9bcdf7bb4836e2175ac2a12c306.svg",
     "index.html": "/portfolioYankovAV/index.html",
     "static/media/mail.svg": "/portfolioYankovAV/static/media/mail.a9a8c84ad6d43bc769ea7a087ac4c76b.svg",
     "main.559dd3ac.css.map": "/portfolioYankovAV/static/css/main.559dd3ac.css.map",
-    "main.c1b28f79.js.map": "/portfolioYankovAV/static/js/main.c1b28f79.js.map",
+    "main.1d215173.js.map": "/portfolioYankovAV/static/js/main.1d215173.js.map",
     "871.de770864.chunk.js.map": "/portfolioYankovAV/static/js/871.de770864.chunk.js.map",
     "970.b8d32f90.chunk.js.map": "/portfolioYankovAV/static/js/970.b8d32f90.chunk.js.map",
     "787.b4051e8c.chunk.js.map": "/portfolioYankovAV/static/js/787.b4051e8c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.559dd3ac.css",
-    "static/js/main.c1b28f79.js"
+    "static/js/main.1d215173.js"
   ]
 }
